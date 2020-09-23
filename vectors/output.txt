@@ -1,0 +1,5 @@
+Element	Previous Index
+1	2
+3	3
+5	0
+9	1

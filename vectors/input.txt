@@ -1,5 +1,5 @@
 4
-BMW 2 2 
-Audi 2 1
-suzuki 1 0
-Honda 0 1
+5
+9
+1
+3
