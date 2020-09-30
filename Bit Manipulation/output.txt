@@ -1,8 +1,1 @@
-
-a
-b
-ab
-c
-ac
-bc
-abc
+1024

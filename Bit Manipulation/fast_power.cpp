@@ -4,7 +4,7 @@
 using namespace std;
 
 int power_optimised(int a , int n) {
-	int ans = 0;
+	int ans = 1;
 	while (n > 0) {
 		int last_bit = (n & 1);
 		if (last_bit) {
@@ -12,7 +12,7 @@ int power_optimised(int a , int n) {
 		}
 
 		a = a * a;
-		n >> 1;
+		n = n >> 1;
 	}
 
 	return ans;
