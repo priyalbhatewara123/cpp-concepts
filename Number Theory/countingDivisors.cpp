@@ -1,14 +1,4 @@
-/*
-Sieve Based Approach:
-This method is useful when we have lots of queries i.e we need to find prime factors
-for lots of numbers. We can precompute the prime numbers and divide the number with
-them only instead of dividing by each number.
-
-TIME COMPLEXITY:
-pre computation time = O(Nlog(logN))
-After this dividing the number by pre computed prime numbers takes O(log(N)) time.
-if we ignore pre computing time than this can be done in log(N) time.
-*/
+//Counting the number of divisors a number has.
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -46,28 +36,28 @@ vector <int> primeSieve(int p[] , int n) {
 }
 
 //to see which all primes are the factors of given number
-vector <int> factorize(int no , vector <int> &primes) {
-
-	vector <int> factors;
-	factors.clear();
-
+int noOfDivisors(int no , vector <int> &primes) {
 	int i = 0;
 	int p = primes[0];
-
+	int mul = 1;
 	while (p * p <= no) {
 		if (no % p == 0) {
-			factors.push_back(p);
+			int count = 0;
 			while (no % p == 0) {
+				count++;
 				no = no / p;
 			}
+
+			mul = mul * (count + 1);
 		}
+
 		i++;
 		p = primes[i];
 	}
 	if (no != 1)
-		factors.push_back(no);
+		mul = mul * 2;
 
-	return factors;
+	return mul;
 }
 
 int main() {
@@ -82,15 +72,7 @@ int main() {
 	//vector containing all primes
 	vector <int> primes = primeSieve(p, n);
 
-	//we will do this for number of queries
-	int t; cin >> t;
-	while (t--) {
-		int no; cin >> no;
+	cout << noOfDivisors(n , primes) << endl;
 
-		vector<int> factors = factorize(no , primes);
-		for (auto f : factors)
-			cout << f << " ";
-		cout << endl;
-	}
 	return 0;
 }
