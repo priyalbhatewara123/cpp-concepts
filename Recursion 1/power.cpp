@@ -14,6 +14,24 @@ int power(int a , int n) {
 	return a * power(a, n - 1);
 }
 
+//time complexity - O(logN)
+int fast_power(int a, int n) {
+
+	//base case
+	if (n == 0)
+		return 1;
+
+	//calculate small ans same for odd and even(n)
+	int small_ans = fast_power(a, n / 2);
+	small_ans *= small_ans;
+
+	//if n is odd
+	if (n & 1)
+		return a * small_ans;
+	else
+		return small_ans;
+}
+
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
@@ -22,7 +40,7 @@ int main() {
 
 	int a, n;
 	cin >> a >> n;
-	cout << power(a, n);
-
+	//cout << power(a, n);
+	cout << fast_power(a, n);
 	return 0;
 }

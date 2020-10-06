@@ -1,0 +1,14 @@
+/*
+INVERSION COUNT:
+Given an array , you need to find total number of pairs such that a[i] > a[j] where i<j.
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+}
