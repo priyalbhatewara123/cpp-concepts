@@ -9,6 +9,8 @@ Write a function which returns the GCD of N1 and N2. Print the value returned.
 //We will use Euclid's GCD Algorithm
 //HCF is same as GCD
 
+//time complexity - O(log(max(n1 , n2)))
+
 #include<bits/stdc++.h>
 using namespace std;
 
