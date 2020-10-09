@@ -1,3 +1,4 @@
+//Bubble Sort
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -13,10 +14,6 @@ void bubbleSort(int a[] , int n) {
 
 int main()
 {
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
 
 	int n; cin >> n;
 	int a[n];
@@ -30,3 +27,14 @@ int main()
 		cout << a[i] << " ";
 	}
 }
+
+/*
+Sample test case
+Input:
+5
+3 9 1 0 5
+
+Output:
+0 1 3 5 9
+
+*/
