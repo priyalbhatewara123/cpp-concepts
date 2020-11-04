@@ -8,6 +8,8 @@ int lastOccurence(int a[] , int key , int n) {
 
 	//recursive call
 	int index = lastOccurence(a + 1, key, n - 1);
+
+	//when element is not found in previous stage
 	if (index == -1) {
 		if (a[0] == key)
 			return 0;

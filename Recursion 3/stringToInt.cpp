@@ -24,7 +24,9 @@ int main() {
 	freopen("output.txt", "w", stdout);
 #endif
 
-	char a[] = "1234";
+	//char a[] = "1234";
+	char a[10];
+	cin >> a;
 	int len = strlen(a);
 
 	int number = stringToInt(a, len);

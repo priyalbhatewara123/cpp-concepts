@@ -1,15 +1,1 @@
-Shift disk 1 from A to B
-Shift disk 2 from A to C
-Shift disk 1 from B to C
-Shift disk 3 from A to B
-Shift disk 1 from C to A
-Shift disk 2 from C to B
-Shift disk 1 from A to B
-Shift disk 4 from A to C
-Shift disk 1 from B to C
-Shift disk 2 from B to A
-Shift disk 1 from C to A
-Shift disk 3 from B to C
-Shift disk 1 from A to B
-Shift disk 2 from A to C
-Shift disk 1 from B to C
+x3.143.14p3.14xx

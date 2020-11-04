@@ -53,7 +53,7 @@ bool placeNqueens(int n , int i , int board[][10]) {  //i will keep track of cur
 			cout << endl;
 		}
 		cout << endl;
-		return true; //we found our solution
+		return false; //we found our solution
 	}
 
 	//first we will try to place the queen in current row
@@ -96,5 +96,8 @@ To get all the possible solutions remove this
 if (nextQueenRakhPaye) {
 	return true;
 }
+
+OR
+in base case after printing the configuration return false.
 
 */

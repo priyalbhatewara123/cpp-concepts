@@ -7,6 +7,7 @@ s = "abc"  subsets = [ " " , "a","b","c","ab","ac","bc","abc"]
 #include<bits/stdc++.h>
 using namespace std;
 
+
 void generate_subsequence(char *in , char *out , int i , int j) { // i and j are pointers
 	//for input and output array respectively
 
@@ -33,8 +34,9 @@ int main() {
 	freopen("output.txt", "w", stdout);
 #endif
 
-	char input[] = "abc";
+	char input[] = "abcd";
 	char output[10];
 
 	generate_subsequence(input, output, 0 , 0);
+
 }

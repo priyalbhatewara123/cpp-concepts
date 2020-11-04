@@ -32,7 +32,7 @@ int main() {
 	freopen("output.txt", "w", stdout);
 #endif
 
-	int arr[] = {1, 2, 3, 7, 4, 5, 6, 7, 10};
+	int arr[] = {1, 2, 3, 6, 4, 5, 6, 7, 10};
 	int key = 6;
 	int n = sizeof(arr) / sizeof(int);
 

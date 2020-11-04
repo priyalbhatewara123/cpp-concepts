@@ -1,9 +1,16 @@
-//Quick Sort Algorithm
-//time complexity - O(nlogn) on average and O(n2) worst case
-//Inplace sorting algorithm
-
 #include<bits/stdc++.h>
 using namespace std;
+
+//randomly shuffle the array first
+void shuffle(int *a , int start , int end) {
+	srand(time(NULL));
+	int i, j, temp;
+	for (int i = end ; i > 0; i--) {
+		//create one random index
+		j = rand() % (i + 1);  //generate random index in range of 0-i
+		swap(a[i], a[j]);
+	}
+}
 
 int partition(int a[] , int s , int e) {
 
@@ -52,6 +59,12 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
 	}
+
+	shuffle(a, 0, n - 1);
+	for (int i = 0; i < n; i++) {
+		cout << a[i] << " ";
+	}
+	cout << endl;
 
 	quickSort(a, 0, n - 1);
 
