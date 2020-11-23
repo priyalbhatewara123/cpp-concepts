@@ -1,3 +1,13 @@
+/*
+Find the Max Sum of submatrix in row and col wise sorted matrix.
+
+Approach - Make a suffix sum matrix and then find the largest element of that matrix.
+This is in-place solution.
+As the matrix is row and column wise sorted therefore we will find the max
+element at the bottom right corner. So we will do column and row wise addition
+from bottom right corner.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

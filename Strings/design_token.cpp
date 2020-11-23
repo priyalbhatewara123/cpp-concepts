@@ -1,3 +1,8 @@
+/*
+Designing String Tokeniser:
+(defining strtok() function)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

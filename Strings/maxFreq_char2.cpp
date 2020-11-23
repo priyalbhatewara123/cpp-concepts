@@ -1,9 +1,13 @@
-//find maximum frequency character in the string
-//we will use hashing
-//create a hash array of size 26
-//In this, when we traverse through the string, we would hash each character into an array of ASCII characters.
-//time complexity - O(n)
-//Space Complexity: O(1) — Because we are using fixed space (Hash array) irrespective of input string size.
+/*
+Take as input S, a string. Write a function that returns the character with maximum frequency.
+
+Approach:
+We will use hashing.
+create a hash array of size 26
+In this, when we traverse through the string, we would hash each character into an array of ASCII characters.
+time complexity - O(n)
+Space Complexity: O(1) — Because we are using fixed space (Hash array) irrespective of input string size.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

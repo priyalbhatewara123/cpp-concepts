@@ -1,7 +1,9 @@
-//to convert string to a char array
-//A way to do this is to copy the contents of the string to char array.
-//This can be done with the help of c_str() and strcpy() function.
-//The c_str() function is used to return a pointer to an array that contains a null terminated sequence of character representing the current value of the string.
+/*
+Convert string to a char array.
+A way to do this is to copy the contents of the string to char array.
+This can be done with the help of c_str() and strcpy() function.
+The c_str() function is used to return a pointer to an array that contains a null terminated sequence of character representing the current value of the string.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

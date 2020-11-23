@@ -1,4 +1,8 @@
-//spiral print of 2d array
+/*
+Spiral print of 2d array -
+Approach - We will do this with the help of four pointers
+startRow , endRow , startCol and endCol
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

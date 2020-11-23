@@ -1,4 +1,6 @@
-//find the largest string among n strings
+/*
+Find the largest string among n strings.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -14,10 +16,12 @@ int main() {
 	cin >> n;
 	cin.get();
 
-	//for efficient solution we will not store all the strings
-	//we will store only 2 strings
-	//first current string
-	//second largest string till now
+	/*
+	for efficient solution we will not store all the strings
+	we will store only 2 strings
+	first current string
+	second largest string till now
+	*/
 	char cur_str[100];
 	char lar_str[100];
 

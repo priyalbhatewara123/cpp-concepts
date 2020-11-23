@@ -1,4 +1,14 @@
-//Bubble Sort
+/*
+Bubble Sort
+Approach-
+Take the largest element towards the end.
+For n elements we have to do n-1 iterations.
+
+Time Complexity-
+Average and Worst case - O(n2)
+Best case - O(n) (when array is already sorted)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

@@ -1,4 +1,12 @@
-//time complexity - O(n2)
+/*
+SELECTION SORT
+Arrange a randomly shuffled array in increasing/ decreasing order.
+
+APPROACH-
+Find the min element present in the array and swap it with the first element in
+unsorted array.
+time complexity - O(n2) in all 3 cases
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

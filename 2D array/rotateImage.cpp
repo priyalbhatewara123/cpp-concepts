@@ -1,5 +1,6 @@
-//program to rotate square array 90 degree anticlockwise
-//without using STL
+/*
+Write a program to rotate square array 90 degree anticlockwise without using STL.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

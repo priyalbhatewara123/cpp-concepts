@@ -1,4 +1,6 @@
-//to count number of set bits in a binary number
+/*
+Count the number of set bits in binary representation of a number.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

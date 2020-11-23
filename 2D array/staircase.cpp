@@ -1,7 +1,8 @@
-//Search an element in row and column wise sorted array
-//we will use StairCase search for this
-//its time complexity is O(n)
-//in this we start searching from top right corner
+/*
+Search an element in row and column wise sorted array.
+Approach - We will use StairCase search for this. (start searching from top right corner)
+its time complexity is O(n)
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,3 +1,7 @@
+/*
+Introduction to Character Array
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

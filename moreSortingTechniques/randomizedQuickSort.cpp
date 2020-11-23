@@ -7,7 +7,7 @@ void shuffle(int *a , int start , int end) {
 	int i, j, temp;
 	for (int i = end ; i > 0; i--) {
 		//create one random index
-		j = rand() % (i + 1);  //generate random index in range of 0-i
+		j = rand() % (i + 1);  //generate random index in range of 0 - i
 		swap(a[i], a[j]);
 	}
 }

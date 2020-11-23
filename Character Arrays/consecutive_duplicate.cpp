@@ -1,4 +1,7 @@
-//remove consecutive duplicate characters from a string
+/*
+Remove consecutive duplicate characters from a string.
+Note: Solution should be in-place.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

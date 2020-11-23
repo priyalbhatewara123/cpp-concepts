@@ -1,11 +1,15 @@
 /*
-Find maximum subarray sum.
-Approach - Kadane's algorithm
-time complexity - O(n)
+Sort the array in descending order.
+Approach-
+use comparator function
 */
 
 #include<bits/stdc++.h>
 using namespace std;
+
+bool compare(int a , int b) {
+	return a > b;
+}
 
 int main()
 {
@@ -19,16 +23,10 @@ int main()
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
 	}
-	int curSum = 0;
-	int maxSum = 0;
+
+	sort(a, a + n, compare);
 
 	for (int i = 0; i < n; i++) {
-		curSum = curSum + a[i];
-		if (curSum < 0) {
-			curSum = 0;
-		}
-		maxSum = max(maxSum , curSum);
+		cout << a[i] << " ";
 	}
-
-	cout << "Max Sum: " << maxSum;
 }

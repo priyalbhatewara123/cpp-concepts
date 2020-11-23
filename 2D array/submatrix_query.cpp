@@ -1,9 +1,16 @@
+/*
+Submatrix Sum Query:
+Given a matrix and Q queries, in each query coordinates of top left and buttom right
+corner is given . Find the sum of elements of that sub-matrix.
+
+Approach-
+First build a prefix sum matrix.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
 int querySum(int a[100][100], int tli , int tlj , int bri , int brj) {
-	int sum, sum1, sum2, sum3;
-	sum = a[bri][brj];
+	int sum = a[bri][brj];
 	if (tli > 0) {
 		sum -= a[tli - 1][brj];
 	}
@@ -34,7 +41,7 @@ int main() {
 			cin >> a[i][j];
 		}
 	}
-	//auxilary matrix
+	//auxilary matrix i.e prefix sum matrix
 	int aux[100][100];
 
 	//copying first column as it is

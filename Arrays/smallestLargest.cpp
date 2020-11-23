@@ -1,7 +1,5 @@
 /*
-Find maximum subarray sum.
-Approach - Kadane's algorithm
-time complexity - O(n)
+Find the largest and smallest element of the array.
 */
 
 #include<bits/stdc++.h>
@@ -19,16 +17,15 @@ int main()
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
 	}
-	int curSum = 0;
-	int maxSum = 0;
+
+	int largest = INT_MIN ;
+	int smallest = INT_MAX ;
 
 	for (int i = 0; i < n; i++) {
-		curSum = curSum + a[i];
-		if (curSum < 0) {
-			curSum = 0;
-		}
-		maxSum = max(maxSum , curSum);
+		largest = max(largest, a[i]);
+		smallest = min(smallest, a[i]);
 	}
 
-	cout << "Max Sum: " << maxSum;
+	cout << "Largest - " << largest << endl;
+	cout << "Smallest - " << smallest << endl;
 }

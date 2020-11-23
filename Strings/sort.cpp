@@ -1,12 +1,11 @@
-#include<iostream>
-#include<algorithm>
-#include <string>
+/*
+Sort n strings in increasing order of their length.
+if 2 strings have same length then they are arranged in lexographical order.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
-//sorting strings based on their length
-//increasing order
-//if 2 strings have same length then they are arranged in lexographical order
 bool compare(string a, string b)
 {
 	if (a.length() == b.length()) {

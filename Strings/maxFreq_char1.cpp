@@ -1,6 +1,8 @@
-//find the character with maximum frequency in the string
-//this approach uses pair to store characters and frequency.
-//time complexity of this approach is O(n2)
+/*
+Take as input S, a string. Write a function that returns the character with maximum frequency.
+Approach - this approach uses pair to store characters and frequency.
+time complexity of this approach is O(n2)
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

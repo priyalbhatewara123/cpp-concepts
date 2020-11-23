@@ -1,3 +1,7 @@
+/*
+Tokenization using strtok()
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

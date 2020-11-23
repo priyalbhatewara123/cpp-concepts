@@ -1,7 +1,16 @@
+/*
+Problem Statement:
+Find the sum of all possible submatrix.
+
+Most optimised method:
+Find the contribution of each cell in the total sum.
+Time complexity - O(n2)
+Space complexity - O(1)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
-//O(n^2) solution
 int submatrix_sum(int a[100][100], int n , int m) {
 	int sum = 0;
 	for (int i = 0; i < n; i++) {

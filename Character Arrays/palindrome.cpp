@@ -1,3 +1,7 @@
+/*
+Find whether the input string is palindrome or not.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -26,10 +30,10 @@ int main() {
 	string s;
 	cin >> s;
 	if (isPalindrome(s)) {
-		cout << "given string is palindrome";
+		cout << "Given string is palindrome.";
 	}
 	else {
-		cout << "not";
+		cout << "Given string is not a palindrome.";
 	}
 
 	return 0;

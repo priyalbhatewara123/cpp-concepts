@@ -1,3 +1,14 @@
+/*
+INSERTION SORT (inspired by game of cards)
+Approach-
+We consider first element as a sorted array and then elements from index 1 to n-1
+are fitted accordingly in sorted array.
+
+Time Complexity
+Best case - O(n)  (when array is already sorted)
+Average and worst Case - O(n2)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

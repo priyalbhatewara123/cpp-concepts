@@ -1,5 +1,8 @@
-//cumulative sum approach
-//time complexity - O(n2)
+/*
+Find subarray with maximum sum.
+Cumulative sum approach
+time complexity - O(n2)
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -29,7 +32,13 @@ int main()
 
 	for (int i = 0; i < n; i++) {
 		for (int j = i; j < n; j++) {
-			currentSum = cumSum[j] - cumSum[i - 1];
+			if (i == 0) {
+				currentSum = cumSum[j];
+			}
+			else {
+				currentSum = cumSum[j] - cumSum[i - 1];
+			}
+
 			if (currentSum > maxSum) {
 				maxSum = currentSum;
 				left = i;

@@ -1,7 +1,8 @@
-//given a sorted array, find a pair of elements that sum to k.
-//we will use two-pointer approach
-//this approach is applicable only if array is sorted
-//time-complexity O(n)
+/*
+Given a sorted array, find all pair of elements that sum to k.
+Approach - We will use two-pointer approach ,this approach is applicable only if array is sorted.
+Time Complexity - O(n)
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

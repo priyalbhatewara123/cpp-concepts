@@ -1,4 +1,4 @@
-//wave print of 2D array
+//Wave print of 2D array
 
 #include <bits/stdc++.h>
 using namespace std;
