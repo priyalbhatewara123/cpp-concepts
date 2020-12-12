@@ -1,3 +1,9 @@
+/*
+Return Dynamic Array:
+Function returns a pointer to dynamic array. Array elements can be accessed
+even from main function.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
