@@ -1,4 +1,9 @@
-#include <algorithm>
+/*
+Various STL functions
+1. rotate()
+2. next_permutation()
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,7 +17,9 @@ int main() {
 
 	int arr[] = {1 , 2, 3, 4 , 5};
 	int n = sizeof(arr) / sizeof(int);
+
 	rotate(arr, arr + 2, arr + n );
+
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
 	}
@@ -23,7 +30,14 @@ int main() {
 	//next permutation gives next permutation of elements of array
 
 	next_permutation(arr , arr + n);
+
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
+
+	cout << endl;
 	next_permutation(arr, arr + n);
+
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
 	}

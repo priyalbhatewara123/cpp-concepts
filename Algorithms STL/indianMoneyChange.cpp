@@ -1,7 +1,8 @@
 /*
+3)
 INDIAN MONEY CHANGE:
-you have 1, 2 ,5 ,10,20,50,100,200,500,2000 coins/notes.
-given a sum of money , print the minimum number of coins/nots that can sum-up
+You have 1, 2 ,5 ,10,20,50,100,200,500,2000 coins/notes.
+Given a sum of money , print the minimum number of coins/nots that can sum-up
 to that money.
 */
 

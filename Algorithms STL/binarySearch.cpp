@@ -1,11 +1,12 @@
-//search in sorted array
-//efficient way is to search with the help of binary search algorithm
-//as its complexity is logN
+/*
+2)
+Search in sorted array:
+To search an element in sorted array use binary_search() method
+instead of find() method as its complexity is logN.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
-
-
 
 int main() {
 

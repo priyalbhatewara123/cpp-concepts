@@ -1,4 +1,12 @@
-#include <algorithm>
+/*
+reverse() in STL:
+
+SYNTAX - reverse(start , end) [start is inclusive and end is exclusive]
+COMPLEXITY -
+Time Complexity - O(n)
+Space Complexity - O(n)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,4 +1,7 @@
-//first video in Algorithms STL
+/*
+1)
+find() method is used to search an element in any container.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
