@@ -1,7 +1,10 @@
-//Given a vector, keep track of the present indexes corresponding to each element and after sorting print element with its previous respective indexes.
-//examples:
-//Input: Arr[] = {2, 5, 3, 7, 1}
-//Output: {1, 4} {2, 0} {3, 2} {5, 1} {7, 3}
+/*
+Given a vector, keep track of the present indexes corresponding to each element
+and after sorting print element with its previous respective indexes.
+examples:
+Input: Arr[] = {2, 5, 3, 7, 1}
+Output: {1, 4} {2, 0} {3, 2} {5, 1} {7, 3}
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

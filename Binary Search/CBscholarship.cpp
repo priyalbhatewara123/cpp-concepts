@@ -1,6 +1,8 @@
-//hackerblocks algorithms problem
-//1 ≤ N,M,X,Y ≤ 10^9​​
-//use long long
+/*
+hackerblocks algorithms problem
+1 ≤ N,M,X,Y ≤ 10^9​​
+use long long
+*/
 
 #include<bits/stdc++.h>
 #define ll long long

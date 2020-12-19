@@ -1,5 +1,6 @@
 Element	Previous Index
-1	2
-3	3
-5	0
-9	1
+1	4
+2	0
+3	2
+5	1
+7	3

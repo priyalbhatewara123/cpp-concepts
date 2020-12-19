@@ -1,5 +1,7 @@
-//hackerblocks algorithms problem
-//problem similar to book allocation
+/*
+hackerblocks algorithms problem
+problem similar to book allocation
+*/
 
 #include<bits/stdc++.h>
 #define ll long long
@@ -34,6 +36,9 @@ int main()
 	int k; int n;
 	cin >> k >> n;
 	ll length[n];
+
+	//START - every board is painted by seperate person (max length)
+	//END - every board is painted by same person(sum of all length)
 	ll start = 0;
 	ll end = 0;
 	ll ans = 0;

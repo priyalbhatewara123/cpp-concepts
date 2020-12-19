@@ -1,4 +1,7 @@
-//search an element in the rotated sorted array using binary search
+/*
+Search an element in the rotated sorted array.
+HINT -  use binary search
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

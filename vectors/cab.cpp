@@ -1,7 +1,9 @@
-//PROBLEM STATEMENT:
-//you have to book a cab. There are n numbers of cab available near you. You have
-//there x and y coordinates. Print the car which is near to you
-//Note: if two cars have same distance, then print the car with lesser x coordinate.
+/*
+PROBLEM STATEMENT:
+You have to book a cab. There are n numbers of cab available near you.
+You have there x and y coordinates. Print the car which is near to you
+Note: if two cars have same distance, then print the car with lesser x coordinate.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

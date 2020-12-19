@@ -1,6 +1,8 @@
-//solving the previous question using class and vector instead of pair.
-//here in input we have 3 things, name , x and y coordinates
-//sort according to the distance and cars with same distance sort them according to there names
+/*
+Solving previous question using class and vector instead of pair.
+In input we have 3 things - name , x and y coordinates
+Sort according to the distance and cars with same distance sort them according to there names.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

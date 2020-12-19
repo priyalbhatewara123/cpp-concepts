@@ -1,3 +1,8 @@
+/*
+VECTORS:
+Vectors are dynamic array that can grow and shrink in size.
+*/
+
 #include<bits/stdc++.h>
 #include<vector>
 using namespace std;

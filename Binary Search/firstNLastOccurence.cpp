@@ -1,5 +1,8 @@
-// First and last occurence of a key in sorted array.
-//since the array is sorted therefore we will use binary search
+/*
+PROBLEM STATEMENT:
+Find first and last occurence of a key in sorted array. (return index of first and last occurence)
+Approach - since the array is sorted therefore we will use binary search.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

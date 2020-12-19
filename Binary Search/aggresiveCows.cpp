@@ -1,5 +1,4 @@
-//spoj problem
-//solve using monotonic search space
+//Spoj problem
 
 #include<bits/stdc++.h>
 using namespace std;

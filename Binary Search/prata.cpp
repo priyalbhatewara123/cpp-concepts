@@ -5,6 +5,7 @@ using namespace std;
 
 bool isPossible(int r[] , int p , int c , int time) {
 	int prata_made = 0;
+	//how much prata each cook will make in that given time
 	for (int i = 0; i < c; i++) {
 		int t = r[i];
 		int j = 2;

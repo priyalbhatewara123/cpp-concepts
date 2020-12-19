@@ -44,7 +44,7 @@ int main()
 		int ans = INT_MAX;
 		while (start <= end) {
 			int mid = (start + end) / 2;
-			if (isPossible(a, n, m, mid)) {
+			if (isPossible(a, n, m, mid)) {   //no student reads more than mid number of pages
 				ans = min(ans, mid);
 				end = mid - 1;
 			}

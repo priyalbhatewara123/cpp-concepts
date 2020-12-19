@@ -15,7 +15,7 @@ int main()
 	for (int i = 0; i < n ; ++i)
 	{
 		int e; cin >> e;
-		v.push_back(e);
+		v.push_back(e);  //push_back() adds element to the end of vector
 	}
 
 	v.pop_back();
