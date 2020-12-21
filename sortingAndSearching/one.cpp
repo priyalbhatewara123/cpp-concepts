@@ -1,6 +1,8 @@
-//Problem Statement:
-//You will be given an array containing only 0s, 1s and 2s.
-//You have to sort the array in linear time that is O(N) where N is the size of the array.
+/*
+Problem Statement:
+You will be given an array containing only 0s, 1s and 2s.
+You have to sort the array in linear time that is O(N) where N is the size of the array.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -17,12 +19,17 @@ int main() {
 		cin >> a[i];
 	}
 
+	/*
+	All elements before low pointer are 0.
+	All elements after high pointer are 2.
+	All elements starting from low till high are 1.
+	*/
 	int low = 0;
 	int mid = 0;
 	int high = n - 1;
 
 	while (mid <= high) {
-		if (a[mid] == 0) {
+		if (a[mid] == 0) {   //we will traverse with the help of mid
 			swap(a[low], a[mid]);
 			low++;
 			mid++;

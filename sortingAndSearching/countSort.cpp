@@ -1,7 +1,9 @@
-//COUNTING SORT
-//Time Complexity: O(n+k) where n is the number of elements in input array and k is the range of input.
-//Auxiliary Space: O(n+k)
-//The problem with the previous counting sort was that we could not sort the elements if we have negative numbers in it.
+/*
+COUNTING SORT
+Time Complexity: O(n+k) where n is the number of elements in input array and k is the range of input.
+Auxiliary Space: O(n+k)
+The problem with this counting sort is that we cannot sort the elements if we have negative numbers in it.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

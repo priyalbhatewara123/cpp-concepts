@@ -1,8 +1,10 @@
-//PROBLEM STATEMENT:
-//You are given two integers n and k.
-//Find the greatest integer x, such that, x^k <= n.
-
-//We can solve using binary search start = 1 and end = n
+/*
+PROBLEM STATEMENT:
+You are given two integers n and k.
+Find the greatest integer x, such that, x^k <= n.
+Approach:
+We can solve using binary search start = 1 and end = n
+*/
 
 #include<bits/stdc++.h>
 #define ll long long
