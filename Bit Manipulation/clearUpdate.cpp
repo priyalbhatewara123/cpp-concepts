@@ -1,7 +1,13 @@
+/*
+Problem Statement 5:
+1. Clear ith bit of a number.
+2. Update ith bit to value V.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
-//clear i th bit from a number
+//clear i th bit of a number
 void clear(int n , int i) {
 	int mask = ~(1 << i);
 	cout << (n & mask);

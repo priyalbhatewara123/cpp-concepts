@@ -1,4 +1,7 @@
-//Given a number. Set the ith bit from right(last bit has index 0).
+/*
+Problem Statement 4:
+Given a number. Set the ith bit from right(last bit has index 0).
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

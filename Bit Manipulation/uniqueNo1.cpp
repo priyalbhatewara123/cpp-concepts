@@ -1,11 +1,14 @@
-//Given a list of numbers where every number occurs twice, except one.
-//Find that unique number.
+/*
+Problem Statement 1:
+Given a list of numbers where every number occurs twice, except one.
+Find that unique number.
 
-//APPROACH:
-//As every number appears twice except one , therefore we can use XOR operator
+APPROACH:
+As every number appears twice except one , therefore we can use XOR operator
 
-//Other way is to maintain a frequency array
-//but this method is more efficient as it does not use any extra space
+Other way is to maintain a frequency array
+but this method is more efficient as it does not use any extra space
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

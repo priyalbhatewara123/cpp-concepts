@@ -1,5 +1,14 @@
-//Calculate a to the power n in an efficient manner using bitwise operator
-//time complexity of this method is O(log N)
+/*
+PROBLEM STATEMENT 11:
+Calculate a to the power n in an efficient manner using bitwise operator.
+Time complexity of this method is O(log N)
+*/
+
+/*
+CONCEPT:
+Copy last page
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

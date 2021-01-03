@@ -1,4 +1,7 @@
-//Given a number, find the i th bit from right(starting from 0 from back).
+/*
+Problem Statement 3:
+Given a number, find the i th bit from right. (from right index will start from 0)
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

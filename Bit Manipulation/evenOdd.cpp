@@ -1,6 +1,9 @@
-//Given a number find whether the number is even or odd
-//We can use bitwise & operator to find same.
-//This method can be used to get the last bit
+/*
+Problem Statement 2:
+Given a number find whether the number is even or odd.
+We can use bitwise & operator to find same.
+This method can also be used to get the last bit.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

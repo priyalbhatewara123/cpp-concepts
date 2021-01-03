@@ -1,7 +1,10 @@
-//Given a string, you need to find all the subsets
-//EXAMPLE:
-//Input - "abc"
-//Output - " " , a , b, c ,ab , bc , abc , ac
+/*
+PROBLEM STATEMENT 12:
+Given a string, you need to find all the subsets
+EXAMPLE:
+Input - "abc"
+Output - " " , a , b, c ,ab , bc , abc , ac
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

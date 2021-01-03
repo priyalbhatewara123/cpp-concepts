@@ -1,6 +1,8 @@
-//PROBLEM STATEMENT
-//We are given an array containg n numbers. All the numbers are present thrice except for one number which is only present once.
-//Find the unique number. Only use - bitwise operators, and no extra space.
+/*
+PROBLEM STATEMENT 10:
+We are given an array containg n numbers. All the numbers are present thrice except for one number which is only present once.
+Find the unique number. Only use - bitwise operators, and no extra space.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -12,14 +14,14 @@ int main() {
 #endif
 
 	int n; cin >> n;
+	/*
+	we will count number of setbits index wise from right
+	if the unique number has setbit at that index than total number of setbits will be 3n+1
+	otherwise total setbits will be 3n
 
-	//we will count number of setbits index wise from right
-	//if the unique number has setbit at that index than then total number of setbit will be 3n+1
-	//otherwise total setbits will be 3n
-
-	//we will not store elements in array
-	//instead we will make a count array of 64 bits to store number of setbits
-
+	we will not store elements in array
+	instead we will make a count array of 64 bits to store number of setbits
+	*/
 	int count[64] = {0};   //space complexity - O(1) as array size is fixed
 	int no;
 	for (int i = 0; i < n; i++) {

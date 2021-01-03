@@ -1,5 +1,8 @@
-//Given a number n, output it's binary representation.
-//solving using bitwise operator
+/*
+Problem Statement 8:
+Given a number n, output it's binary representation.
+Solve it using bitwise operator.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

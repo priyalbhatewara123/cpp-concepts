@@ -1,5 +1,5 @@
 /*
-PROBLEM STATEMENT:
+PROBLEM STATEMENT 9:
 We are given an array containg n numbers. All the numbers are present twice except for two numbers which are present only once.
 Find the unique numbers in linear time without using any extra space.
 SAMPLE INPUT:
@@ -8,6 +8,7 @@ SAMPLE INPUT:
 
 SAMPLE OUTPUT:
 2 3
+(print the unique numbers in ascending order)
 */
 
 #include<bits/stdc++.h>

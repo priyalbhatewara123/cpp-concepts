@@ -1,7 +1,9 @@
-//You are given two 32-bit numbers , N and M, and 2 bit positions, i and j(from end starting from 0).
-//Write a method to set all bits between i and j in N equal to M.
-
 /*
+Problem Statement 7:
+You are given two 32-bit numbers , N and M, and 2 bit positions, i and j(from end starting from 0).
+Write a method to set all bits between i and j in N equal to M.
+
+
 EXAMPLE:
 
 Input:
@@ -19,9 +21,12 @@ Output: 5
 using namespace std;
 
 int clearRange(int n , int i , int j) {
-	int mask1 = ~((-1 << (j + 1)) ^ (-1 << i));
+	int a = (-1 << (j + 1));
+	int b = (1 << i) - 1;
 
-	return (n & mask1);
+	//we will create a mask with zeroes in range [i,j] and rest all ones
+	int mask = a | b;
+	return (n & mask);
 }
 
 
