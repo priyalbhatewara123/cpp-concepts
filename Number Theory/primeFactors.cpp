@@ -1,4 +1,6 @@
-/*Find all the prime factors of a number.
+/*
+(2)
+Find all the prime factors of a number.
 METHOD - 1
 Using optimised trial divisions
 TIME COMPLEXITY - O(sqrt(n))

@@ -1,5 +1,14 @@
-//To print all the prime numbers upto n
-//Time Complexity - O(Nlog(logN)) which is nearly equal to O(n) (approximately linear)
+/*
+(1)
+PRIME SIEVE / SIEVE OF ERATOSTHENES
+Efficient way to print all the prime numbers upto n.
+Time Complexity - O(Nlog(logN)) which is nearly equal to O(n) (approximately linear)
+
+APPROACH:
+All even numbers except 2 are not primes.
+Mark all odd numbers prime. Then visit every odd number and mark all its multiples
+as not prime.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

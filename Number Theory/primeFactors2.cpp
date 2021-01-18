@@ -1,4 +1,5 @@
 /*
+(3)
 Sieve Based Approach:
 This method is useful when we have lots of queries i.e we need to find prime factors
 for lots of numbers. We can precompute the prime numbers and divide the number with

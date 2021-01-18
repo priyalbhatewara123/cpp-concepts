@@ -1,4 +1,8 @@
-//Counting the number of divisors a number has.
+/*
+(4)
+Counting the number of divisors a number has.
+Concept - In copy
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

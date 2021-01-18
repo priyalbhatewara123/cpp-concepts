@@ -1,8 +1,7 @@
 /*
-PROBLEM STATEMENT:
-How many numbers (less than 1000) are divisible by 2 , 3 and 5.(atleast by one of them)
-
-But we will solve Avengers end game problem from hackerblocks because it is very similar to this.
+(7)
+Problem link - https://hack.codingblocks.com/app/practice/5/1264/problem
+Concept used: Inclusion Exclusion principle
 */
 
 #include<bits/stdc++.h>

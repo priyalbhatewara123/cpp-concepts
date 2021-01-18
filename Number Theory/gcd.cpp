@@ -1,15 +1,16 @@
 /*
+(5)
 Take the following as input.
 
 A number (N1)
 A number (N2)
 Write a function which returns the GCD of N1 and N2. Print the value returned.
+
+We will use Euclid's GCD Algorithm (in copy)
+HCF is same as GCD
+
+time complexity - O(log(max(n1 , n2)))
 */
-
-//We will use Euclid's GCD Algorithm
-//HCF is same as GCD
-
-//time complexity - O(log(max(n1 , n2)))
 
 #include<bits/stdc++.h>
 using namespace std;
