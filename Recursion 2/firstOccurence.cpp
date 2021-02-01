@@ -1,6 +1,8 @@
-//Find the first occurence of the input key
-
-//we will solve it using recursion (recursion in linear search)
+/*
+(1)
+Find the first occurence of the input key
+we will solve it using recursion (recursion in linear search)
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

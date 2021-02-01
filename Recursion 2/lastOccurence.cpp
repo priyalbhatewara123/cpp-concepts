@@ -1,3 +1,10 @@
+/*
+(2)
+Find the last occurence of the input key.
+To find the last occurence of a key, we first write the recursive call and
+then check for the index.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

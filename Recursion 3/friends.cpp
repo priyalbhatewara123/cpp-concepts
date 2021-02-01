@@ -1,4 +1,5 @@
 /*
+(7)
 FRIENDS PAIRING PROBLEM
 Given N friends who wants to go to a party on bike. Each guy can go either single or in pair
 Find number of ways in which N friends can go to a party.

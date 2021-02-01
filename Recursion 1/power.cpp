@@ -1,4 +1,7 @@
-//Write a recursive function to perform power(a,n)
+/*
+(4)
+Write a recursive function to perform power(a,n)
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

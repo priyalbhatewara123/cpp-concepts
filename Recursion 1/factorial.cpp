@@ -1,4 +1,7 @@
-//Finding factorial of a number using recursion
+/*
+(6)
+Find factorial of a number using recursion.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

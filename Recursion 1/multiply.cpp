@@ -1,6 +1,9 @@
-//Write a recursive function to multiply 2 numbers a and b without using * operator.
+/*
+(5)
+Write a recursive function to multiply 2 numbers a and b without using * operator.
 
-//This can be done by adding a , b number of times.
+This can be done by adding a , b number of times.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

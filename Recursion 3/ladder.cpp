@@ -1,4 +1,5 @@
 /*
+(6)
 LADDER PROBLEM:
 A child is standing on the ground initially. He/she has to climb a ladder of size N.
 He can take max K steps at a time. Find the number of ways child can reach at the top.
@@ -10,7 +11,7 @@ using namespace std;
 int numberOfWays(int n , int k) {
 
 	//base case
-	if (n == 0)
+	if (n == 0)    //n=0 means number of ways to stand on ground which is 1
 		return 1;
 	if (n < 0)
 		return 0;

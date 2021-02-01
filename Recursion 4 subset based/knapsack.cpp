@@ -1,4 +1,5 @@
 /*
+(3)
 0-1 Knapsack problem
 A thief with bag of capacity c , went on stealing items of some weight and price.
 Find the maximum profit he can have.

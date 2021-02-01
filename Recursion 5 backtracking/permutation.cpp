@@ -1,4 +1,5 @@
 /*
+(2)
 PERMUTATIONS
 Given a string s, task is to find all permutations of string s.
 For eg: s = "abc"

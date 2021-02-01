@@ -1,6 +1,9 @@
 /*
+(6)
 INVERSION COUNT:
 Given an array , you need to find total number of pairs such that a[i] > a[j] where i<j.
+
+We will use merge sort to solve this to reduce the time complexity.
 */
 
 #include<bits/stdc++.h>

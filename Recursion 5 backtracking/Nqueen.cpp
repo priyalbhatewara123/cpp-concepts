@@ -1,4 +1,5 @@
 /*
+(4)
 In N*N chess board place N queens , such that all queens are safe.
 (Remember Queen can move any number of squares vertically, horizontally and diagionally)
 */

@@ -1,4 +1,7 @@
-//Write a recursive function to perform binary search
+/*
+(3)
+Write a recursive function to perform binary search
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,6 @@
-/*String generation:
+/*
+(5)
+String generation:
 We are given a hashmap which maps all the letters with number.
 Given 1 is mapped with A, 2 is mapped with B…..26 is mapped with Z.
 Given a number, you have to print all the possible strings.

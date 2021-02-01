@@ -1,4 +1,5 @@
 /*
+(8)
 Count binary strings of length N, which have no consecutive ones.
 For eg: for n = 2, ans is 3
 00 , 01 and 10
@@ -16,6 +17,10 @@ int countStrings(int n) {
 	if (n == 2)
 		return 3;
 
+	/*
+	there are 2 options : The string will either ends with 0 or with 1.
+	If string ends with 1 then the second last digit has to be 0.
+	*/
 	return countStrings(n - 1) + countStrings(n - 2);
 }
 

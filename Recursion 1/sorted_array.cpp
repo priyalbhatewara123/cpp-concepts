@@ -1,4 +1,5 @@
 /*
+(2)
 Write a recursive function to check if array is sorted.
 */
 

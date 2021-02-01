@@ -1,4 +1,5 @@
 /*
+(6)
 Given a N*N sudoku , N is a perfect square . You have to fill the empty spaces in the sudoku
 such that each row , each column and each sub grid(size: root(n) * root(n)) has every number 1 - 9 only once.
 */
@@ -31,7 +32,7 @@ bool isPossible(int num , int r , int c , int mat[][9] , int n) {
 }
 
 
-bool solveSudoku(int mat[][9] , int r , int c, int n) { // (i,j) will keep track of current element
+bool solveSudoku(int mat[][9] , int r , int c, int n) { // (r,c) will keep track of current element
 
 	//base case
 	if (r == n) {

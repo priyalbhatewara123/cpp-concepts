@@ -1,7 +1,8 @@
 /*
+(1)
 Problem Statement
-Write spellings for given number using recursion
-for eg: 2048 - two zero four eight
+Write spellings for given number using recursion.
+For eg: 2048 - two zero four eight
 */
 
 #include<bits/stdc++.h>

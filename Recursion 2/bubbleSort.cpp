@@ -1,4 +1,7 @@
-//Bubble sort using recursion by 2 methods
+/*
+(4)
+Bubble sort using recursion by 2 methods.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

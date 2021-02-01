@@ -1,3 +1,8 @@
+/*
+(3)
+Find all occurences of a key in an array.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -6,6 +11,7 @@ Method: 1
 Directly printing the indices without storing them
 */
 void allOccurences(int *a , int n , int key , int i) {
+	//i is the current index in the array
 
 	//base case
 	if (i == n)

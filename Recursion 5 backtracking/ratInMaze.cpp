@@ -1,4 +1,5 @@
 /*
+(1)
 RAT IN A MAZE
 Given a M*N matrix with some cells blocked. Rat can move only forward or downwards.
 Print all possible paths from source(0,0) to destination(m-1,n-1).
