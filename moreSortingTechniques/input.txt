@@ -1,2 +1,5 @@
-5
-1 5 2 6 3 
+3
+92 22
+82 12
+77 13
+2 true lexicographical

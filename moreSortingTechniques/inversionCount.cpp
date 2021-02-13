@@ -1,4 +1,5 @@
 /*
+(2)
 INVERSION COUNT:
 Find all pairs of the array such that a[i] > a[j] for i<j .
 */

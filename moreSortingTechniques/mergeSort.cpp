@@ -1,4 +1,7 @@
-//MERGE SORT ALGORITHM
+/*
+(1)
+MERGE SORT ALGORITHM
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

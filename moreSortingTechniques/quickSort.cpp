@@ -1,6 +1,9 @@
-//Quick Sort Algorithm
-//time complexity - O(nlogn) on average and O(n2) worst case
-//Inplace sorting algorithm
+/*
+(3)
+Quick Sort Algorithm
+time complexity - O(nlogn) on average and O(n2) worst case
+Inplace sorting algorithm
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

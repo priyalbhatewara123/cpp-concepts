@@ -1,10 +1,18 @@
+/*
+(4)
+Randomized Quick Sort
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
-//randomly shuffle the array first
+/*
+randomly shuffle the array first
+For Reference: http://www.cplusplus.com/reference/cstdlib/srand/
+*/
 void shuffle(int *a , int start , int end) {
-	srand(time(NULL));
-	int i, j, temp;
+	srand(time(NULL)); //seed value is the current time of the system so that it generates different sequence at different times.
+	int i, j;
 	for (int i = end ; i > 0; i--) {
 		//create one random index
 		j = rand() % (i + 1);  //generate random index in range of 0 - i
