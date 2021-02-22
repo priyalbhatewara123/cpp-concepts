@@ -1,4 +1,5 @@
 /*
+(1)
 Different operations on Linked list
 1. Insertion
 Insertion can be done at 3 places:
@@ -89,6 +90,7 @@ void insertInMiddle(node* &head , int data , int pos) {
 	else {
 		node* temp = head;
 		int jump = pos - 1;
+		//temp will point to the node after which data is to be inserted
 		while (jump >= 0) {
 			temp = temp->next;
 			jump--;
@@ -108,7 +110,7 @@ void deleteHead(node* &head) {
 		return;
 
 	node* temp = head -> next;
-	delete head;
+	delete head; //deletes node at head
 	head = temp;
 }
 
@@ -172,7 +174,7 @@ bool searchUsingRecursion(node* head , int key) {
 
 void printLinkedList(node* head) {  //passing head by value
 	while (head != NULL) {
-		cout << head->data << " ";
+		cout << head->data << " -> ";
 		head = head -> next;
 	}
 
@@ -185,6 +187,7 @@ ostream& operator<<(ostream &os , node*head) {   //cin and cout are object of cl
 }
 //we can overload >> for taking input using istream class
 
+
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
@@ -192,6 +195,11 @@ int main() {
 #endif
 
 	node* head = NULL;
+
+	/*
+	We do dynamic allocation in linked list because if we do static allocation
+	then variables(node) gets destroyed after function call is over.
+	*/
 	insertAtHead(head , 4);
 	insertAtHead(head , 2);
 	insertAtHead(head , 1);
@@ -221,7 +229,7 @@ int main() {
 	cout << endl;
 
 	//prints 1 if element is present otherwise 0
-	cout << search(head , 8) << endl;
+	cout << search(head , 1) << endl;
 
 	cout << searchUsingRecursion(head, 8) << endl;
 

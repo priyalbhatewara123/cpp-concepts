@@ -1,10 +1,11 @@
 /*
+(4)
 PROBLEM STATEMENT:
 Find the mid point of linked list.
 
 Most basic technique:
 Find the length of linked list and iterate till length/2. This takes O(n) time.
-Here linked list is iterated 2 times.
+Here linked list is iterated 2 times.(One to calculate length and other to iterate till midpoint)
 
 RUNNER TECHNIQUE:
 There are 2 horses one is faster and other slower. Faster one takes 2 steps at a time

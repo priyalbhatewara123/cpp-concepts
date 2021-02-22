@@ -1,4 +1,6 @@
-/*Reverse a given linked list
+/*
+(2)
+Reverse a given linked list
 We won't perform swap operation as it is quite costly.
 Rather we will change the pointers.
 */

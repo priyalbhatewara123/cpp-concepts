@@ -1,4 +1,7 @@
-//Reverse a linked list using recursion
+/*
+(3)
+Reverse a linked list using recursion.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -24,7 +27,7 @@ void insertAtHead(node* &head , int d) {
 	n -> next = head;
 	head = n;
 }
-
+/*
 void reverseUsingRecursion(node* &head , node* &P , node* &C) {
 
 	//base case
@@ -37,6 +40,20 @@ void reverseUsingRecursion(node* &head , node* &P , node* &C) {
 	node* N = C -> next;
 	C -> next = P;
 	reverseUsingRecursion(head , C , N);
+}
+*/
+
+node* reverseUsingRecursion(node* head) {
+
+	//base case
+	if (head == NULL or head->next == NULL)
+		return head;
+
+	node* shead = reverseUsingRecursion(head -> next);
+	node* temp = head -> next;
+	temp -> next = head;
+	head -> next = NULL;
+	return shead;
 }
 
 void printLinkedList(node* head) {
@@ -66,8 +83,9 @@ int main() {
 	node* P = NULL;
 	node* C = head;
 
-	reverseUsingRecursion(head , P , C);
-	printLinkedList(head);
+	//reverseUsingRecursion(head , P , C);
+	node* newHead = reverseUsingRecursion(head);
+	printLinkedList(newHead);
 	cout << endl;
 
 	return 0;
