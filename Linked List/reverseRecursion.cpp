@@ -1,6 +1,6 @@
 /*
 (3)
-Reverse a linked list using recursion.
+Reverse a linked list using recursion. (singly)
 */
 
 #include<bits/stdc++.h>
