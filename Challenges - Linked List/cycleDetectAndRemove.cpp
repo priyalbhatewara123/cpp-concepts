@@ -1,5 +1,5 @@
 /*
-(3)
+(4)
 Cycle detection and removal in Linked List.
 
 Solved using Floyd’s Cycle detection algorithm.
