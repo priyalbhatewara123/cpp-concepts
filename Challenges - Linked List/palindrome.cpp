@@ -96,3 +96,28 @@ int main() {
 
 	return 0;
 }
+
+
+/*
+2 pointer recursive solution
+
+class Solution {
+public:
+    ListNode* left;
+    bool isPalindrome(ListNode* head) {
+        left = head;
+        return palindrome(head);
+    }
+
+    bool palindrome(ListNode* right){
+        if(right == NULL)
+            return true;
+        bool ans = false;
+        if(palindrome(right -> next) and left -> val == right -> val)
+            ans = true;
+        left = left -> next;
+        return ans;
+    }
+};
+
+*/
